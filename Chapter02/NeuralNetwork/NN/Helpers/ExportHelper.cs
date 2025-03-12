@@ -1,9 +1,9 @@
-﻿using System.IO;
-using System.Windows.Forms;
+﻿using EnsureThat;
+using NeuralNetwork.NetworkModels;
 using Newtonsoft.Json;
 using System.Collections.Generic;
-using NeuralNetwork.NetworkModels;
-using EnsureThat;
+using System.IO;
+using System.Windows.Forms;
 
 namespace NeuralNetwork.Helpers
 {

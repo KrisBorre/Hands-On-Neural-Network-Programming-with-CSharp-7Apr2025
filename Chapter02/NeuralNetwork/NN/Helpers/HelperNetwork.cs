@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace NeuralNetwork.Helpers
 {
-	public class HelperNetwork
+    public class HelperNetwork
 	{
 		public double LearningRate { get; set; }
 		public double Momentum { get; set; }

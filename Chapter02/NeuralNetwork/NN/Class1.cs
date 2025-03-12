@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Console = Colorful.Console;
 
 namespace NeuralNetwork
 {
-    using System.Drawing;
     using Helpers;
     using NetworkModels;
+    using System.Drawing;
 
     /// <summary>   Manager for nns. </summary>
     public class NNManager
