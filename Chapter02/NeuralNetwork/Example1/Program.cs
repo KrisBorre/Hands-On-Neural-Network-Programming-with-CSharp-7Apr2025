@@ -6,7 +6,7 @@ namespace NeuralNetwork
     {
         static void Main(string[] args)
         {
-            NNManager mgr = new NNManager();
+            NNManager_8Apr2025 mgr = new NNManager_8Apr2025();
             mgr.SetupNetwork()
                 .GetTrainingDataFromUser()
                 .TrainNetworkToMinimum()
