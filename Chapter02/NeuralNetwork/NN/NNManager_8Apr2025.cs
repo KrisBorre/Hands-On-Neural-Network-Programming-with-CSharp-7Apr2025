@@ -51,7 +51,7 @@ namespace NeuralNetwork
             _numHiddenLayers = 1;
             _hiddenNeurons = hidden;
             _numOutputParameters = 1;
-            _network = new Network(_numInputParameters, _hiddenNeurons, _numOutputParameters);
+            _network = new Network(inputSize: _numInputParameters, hiddenSizes: _hiddenNeurons, outputSize: _numOutputParameters);
             return this;
         }
 

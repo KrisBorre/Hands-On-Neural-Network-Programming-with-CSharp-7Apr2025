@@ -131,7 +131,7 @@ namespace NeuralNetwork.NetworkModels
 
 		public virtual double CalculateValue()
 		{
-			return Value = Sigmoid.Output(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
+			return this.Value = Sigmoid.Output(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
 		}
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -6,8 +6,8 @@ namespace NeuralNetwork
     {
         static void Main(string[] args)
         {
-            NNManager_8Apr2025 mgr = new NNManager_8Apr2025();
-            mgr.SetupNetwork()
+            NNManager_8Apr2025 manager = new NNManager_8Apr2025();
+            manager.SetupNetwork()
                 .GetTrainingDataFromUser()
                 .TrainNetworkToMinimum()
                 .TestNetwork();
@@ -15,7 +15,7 @@ namespace NeuralNetwork
             Console.WriteLine("Press any key to train network for maximum");
             Console.ReadKey();
 
-            mgr.SetupNetwork()
+            manager.SetupNetwork()
                 .GetTrainingDataFromUser()
                 .TrainNetworkToMaximum()
                 .TestNetwork();
